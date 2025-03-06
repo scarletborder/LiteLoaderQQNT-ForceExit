@@ -4,8 +4,6 @@ import { IConfig } from '../model';
 
 const pluginName = 'lite_loader_qqnt_force_exit';
 
-
-
 class Config {
   private _config: IConfig = {
     forceQuit: false

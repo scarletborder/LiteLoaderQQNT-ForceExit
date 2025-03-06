@@ -1,7 +1,7 @@
 import { IConfig } from '../model';
 import { debounce } from './utils';
 
-const forceAPI = window.forceQuit;
+const forceAPI = window.forceQuit; // 本插件preload暴露给window
 
 
 const timer = setInterval(() => {

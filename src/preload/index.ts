@@ -5,7 +5,7 @@ contextBridge.exposeInMainWorld('forceQuit', {
   // quit
   quit: () => ipcRenderer.send('scb.forceQuit.quit'),
   // deprecared, load menu html ,
-  // use getMenuHTNK in renderer process directly
+  // use getMenuHTML in renderer process directly
   // getMenuHTML: () => ipcRenderer.invoke('LiteLoader.forceQuit.getMenuHTML'),
   // config
   getConfig: () => ipcRenderer.invoke('scb.forceQuit.getConfig'),
